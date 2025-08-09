@@ -5,9 +5,9 @@
 @import url(./product.css);
 @import url(./footer.css);
 
-*{
+/* *{
     outline: 1px solid red;
-}
+} */
 *,*:before,*:after{
     box-sizing: border-box;
 }
