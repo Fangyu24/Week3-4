@@ -7,6 +7,7 @@
 
 .index-content {
     margin: 32px 0px;
+    margin: 0 auto;
 }
 
 .index-content  .breadcrumb{
@@ -31,7 +32,7 @@
     color:#212529;
     line-height: 1.2;
 }
-@media(max-width:375px){
+@media(max-width:768px){
     .index-content{
         max-width: 375px;
         margin: 16px 12px;
@@ -79,7 +80,7 @@
         background-color: #57A203;
         color:white;
     }
-@media(max-width:375px){
+@media(max-width:768px){
     .col-2{
         display: none;
     }
@@ -134,9 +135,10 @@
     background-color: #C0FA73;
 }
 
-@media(max-width:375px){
+@media(max-width:768px){
     .col-10{
         width: 100%;
+        margin: 0 auto;
     }
     .col-10 .product-list{
         margin: 0 -6px;

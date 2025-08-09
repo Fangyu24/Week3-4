@@ -24,7 +24,7 @@ button:hover{
     color: white;
     background-color: gray;
 }
-@media (max-width:375px){
+@media (max-width:768px){
     footer h4{
         font-size: 20px;
         margin: 32px 16px 32px 24px;
@@ -74,7 +74,7 @@ footer .add .container{
     margin-bottom: 4px;
 }
 
-@media (max-width:375px){
+@media (max-width:768px){
 
     .add .logo-link{
         flex-direction: column;
