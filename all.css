@@ -1,0 +1,41 @@
+@import url(./reset.css);
+@import url(./header.css);
+@import url(./brandstory.css);
+@import url(./index.css);
+@import url(./product.css);
+@import url(./footer.css);
+
+*{
+    outline: 1px solid red;
+}
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+.d-flex {
+    display: flex;
+}
+
+.d-flex-w {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-content-center{
+    display: flex;
+    justify-content: center;
+
+}
+body{
+    box-sizing: border-box;
+    font-family: "Noto Sans TC", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+}
+.container{
+    max-width: 1296px;
+    margin: auto;
+}
+img{
+    width: 100%;
+    display: block;
+}

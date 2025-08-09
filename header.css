@@ -1,0 +1,51 @@
+header{
+    padding: 16px 0px;
+}
+
+header .nav .nav-list li{
+    list-style-type: none;
+}
+header .nav .nav-list li h1{
+    float: left;
+    margin-right: 48px;
+}
+header .nav .nav-list li h1 a{
+    display: block;
+    text-decoration: none;  
+}
+header .nav-list .list-item {
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+}
+
+header .nav-list .list-item a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 12px 0px;
+}
+header .nav-list .list-item a:hover{
+    background-color: black;
+    color: white;
+}
+
+header .nav .icon-button{
+    margin-left: auto;
+}
+
+header .nav .icon-button a{
+    display: block;
+    padding: 12px;
+    color:black;
+}
+
+
+@media(max-width:375px){
+.container{
+    max-width: 375px;
+ } 
+ header .nav-list .list-item{
+    display: none;
+ }
+}

@@ -1,0 +1,193 @@
+
+/* 定位沒辦法讓元素置中*/
+/* .header .header-content{
+    position: relative;  
+}
+.header .brand{
+    position: absolute;
+    top: 151px;
+} */
+
+.header-content .brand{
+    margin: -249px 0px 215px;
+}
+
+.header-content .brand h2{
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-bottom: 16px;
+
+}
+.header-content .brand h3{
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+}
+@media(max-width:375px){
+    .header-content img{
+        height: 240px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .header-content .brand{
+        margin: -153px 0px 119px ;
+    }
+    .header-content .brandh2{
+        font-size: 28px;
+    }
+    .header-content .brand h3{
+        font-size: 20px;
+    }
+} 
+
+.quote-content {
+    max-width: 856px;
+    margin: 0px auto 48px;
+}
+.quote-content .blockquote {
+    padding: 32px;
+    background-color: #F5FEE7;
+}
+.d-flex-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blockquote span {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #57A203;
+    margin-bottom: 12px;
+}
+.blockquote .label p {
+    text-align: center;
+    margin-bottom: 4px;
+}
+@media(max-width:375px){
+    .quote-content {
+        max-width: 856px;
+        margin: 32px 12px;
+    }
+    .quote-content .blockquote{
+        padding: 24px;
+    }
+
+    .blockquote span{
+        text-align: left;
+    }
+    .blockquote .label p{
+        text-align: left;
+    }
+}
+/* .main .container{
+    max-width: 1076px;
+    margin: 0 auto;
+} */
+ 
+.intro img{
+    max-width: 1076px;
+    margin-bottom: 24px;
+}
+
+@media (max-width:375px) {
+
+    .main{
+    margin: 0px 12px;
+    }
+    .intro img{
+        margin-right: 8px;
+}
+}
+
+.intro-section, .history, .concept, .connect{
+    max-width: 856px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid #DEE2E6;
+    margin: 0 auto;
+}
+
+.intro-section h2, .history h2, .concept h2, .connect h2{
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 24px;
+}
+.intro-section h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #57A203;
+    margin-bottom: 16px;
+}
+.intro-section p{
+    margin-bottom: 16px;
+}
+
+@media (max-width:375px) {
+
+    .intro-section{
+        padding-bottom: 20px;
+        margin: 16px 0px 0px;
+    } 
+    .intro-section h2, .history h2, .concept h2, .connect h2{
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+    .intro-section h3{
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+    .intro-section p{
+        margin-bottom: 12px;
+    }
+}
+.history ol{
+    padding-left: 24px;
+}
+.history li{
+    color: #212529;
+    margin-bottom: 12px;
+    list-style-type: disc;
+}
+.history li time,span{
+    margin-right: 8px;
+}
+
+
+.concept ul li{
+    list-style: none;
+    margin-bottom: 12px;
+    color: #212529;
+    border-left: 3px solid #DEE2E6;
+    text-indent: 12px;
+}
+.connect a, .connect svg{
+    color: #57A203;
+}
+.share{
+    margin-bottom: 16px;
+    list-style: none;
+}
+.share ul{
+    padding-bottom: 48px;
+}
+.share a{
+    text-decoration: none;
+    border-bottom: 1px solid #57A203;
+    margin: 8px 0px;
+}
+
+@media (max-width:375px) {
+    .history, .concept, .connect{
+        margin: 32px 0px 0px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #DEE2E6;
+    }
+}
